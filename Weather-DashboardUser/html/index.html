@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./script.css">
+  <title>Weather  Dashboard</title>
+</head>
+
+<body>
+  
+  <header id="banner">
+    <h1>Weather Dashboard</h1>
+</header>
+<header class="container-fluid bg-dark text-light mb-5 p-3">
+  <div class="d-flex align-items-center">
+<div id="searchPanel">
+  <section id="citySearch">
+    <h3>Search Another City:</h3>
+    <div id="search">    
+      <button class="btn mt-2 btn-primary">
+        search
+      </button>   
+    </div>
+
+    <div id="searchError"></div>
+
+    <div id="sampleSearches">
+      <button>Abu Dhabi</button> 
+      <button>Barcelona</button>
+      <button>Chicago</button>
+      <button>Dallas</button>
+      <button>El Paso</button>
+      <button>Florence</button>
+      <button>Geneva</button>
+      <button>Honolulu</button>
+    </div>
+
+  </section>
+ 
+<section id="mainDisplay">
+  <section id="today"></section>
+
+  <section id="forecast">
+    <h2>5-Day Forecast:</h2>
+    <div class="fiveDays"></div>
+  </section>
+  
+</section>
+</div>
+
+</body>
+</html>
